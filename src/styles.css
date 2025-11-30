@@ -1,0 +1,86 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.score-item {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  padding: 10px 14px;
+  border-radius: 8px;
+  min-width: 80px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.score-item strong {
+  display: block;
+  color: #444;
+}
+
+.score-item span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+.score-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button.small {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+button.small:hover {
+  background: #eee;
+}
+
+.turno {
+  margin: 8px 0 18px;
+  font-weight: 600;
+}
+
+.info {
+  margin-top: 14px;
+  color: #666;
+  font-size: 14px;
+}
+
+.board {
+  width: 260px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.cell:hover {
+  background: #f1f1f1;
+}
